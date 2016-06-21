@@ -1,17 +1,19 @@
 .content {
   display: flex;
   flex-wrap: wrap;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
-/*.header__menu {
+.header__menu {
   display: none;
-}*/
+}
 
 .hero, .top-news, .scores, .weather, .recent-news {
   order: 10;
 }
 
-@media screen and (max-width: 499x) {
+@media screen and (max-width: 549px) {
   .header__logo {
     height: 48px;
     margin-right: 0.5em;
@@ -52,9 +54,13 @@
     width: 32px;
     fill: #E0E0E0;
   }
+  .scores {
+    width: 100%;
+    overflow:auto;
+  }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 550px) {
   .hero {
     order: 1;
     width: 60%;
@@ -64,7 +70,6 @@
     width: 40%;
   }
 }
-
 
 @media screen and (min-width: 700px) {
   .hero {
