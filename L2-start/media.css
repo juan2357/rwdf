@@ -57,18 +57,18 @@
 @media screen and (min-width: 500px) {
   .hero {
     order: 1;
-    width: 50%;
+    width: 60%;
   }
   .weather {
     order: 2;
-    width: 50%;
+    width: 40%;
   }
 }
 
 
 @media screen and (min-width: 700px) {
   .hero {
-    width: 50%;
+    width: 100%;
   }
   .top-news {
     order: 1;
@@ -76,7 +76,7 @@
   }
   .scores {
     order: 2;
-    width: 60%;
+    width: 50%;
   }
   .weather {
     order: 3;
