@@ -171,6 +171,7 @@ main {
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  width: 100%;
 }
 
 .news__title {
@@ -208,12 +209,13 @@ main {
 
 /*
  *
- * Sport Scores
+ *  Scores
  *
  */
 
 .scores {
   padding-top: 1em;
+  flex-grow: 1;
 }
 
 .scores__table {
@@ -261,6 +263,7 @@ main {
 
 .weather {
   padding: 1em;
+  flex-grow: 1;
 }
 
 .weather__location {
@@ -316,6 +319,7 @@ main {
 .recent-news {
   clear: both;
   padding: 1em;
+  flex-grow: 1;
 }
 
 .snippet {
